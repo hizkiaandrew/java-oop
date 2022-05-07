@@ -7,11 +7,11 @@ public class ManagerApp {
          *
          * One Child only have one parent, while one parent can have many child
          */
-        var manager = new Manager();
+        var manager = new Manager("Hizkia");
         manager.name = "Hizkia";
         manager.sayHello("Kincup");
 
-        var vp = new VicePresident();
+        var vp = new VicePresident("Andrew");
         vp.name = "Bokir";
         vp.sayHello("Kecap");
     }
